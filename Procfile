@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: apt-get update && apt-get install -y libgl1-mesa-glx && gunicorn app:app
