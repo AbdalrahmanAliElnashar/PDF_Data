@@ -8,4 +8,3 @@ img2table
 img2table[paddle]
 gunicorn==21.2.0
 psycopg2==2.9.9
-paddleocr==2.0.6
