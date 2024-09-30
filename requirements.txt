@@ -1,6 +1,6 @@
 openpyxl
 opencv-contrib-python==4.10.0.84
-opencv-python-headless==4.6.0.66
+opencv-python-headless==4.5.3.56
 flask
 pandas
 pdf2image
