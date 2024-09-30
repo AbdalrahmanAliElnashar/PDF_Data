@@ -1,0 +1,8 @@
+openpyxl
+opencv-contrib-python
+flask
+pandas
+pdf2image
+img2table
+img2table[paddle]
+traceback
