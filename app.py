@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Function to convert the first page of a PDF to an image
 def convert_pdf_to_image(pdf_path):
     try:
-        images = convert_from_path(pdf_path, first_page=1, last_page=1)  # Extract only the first page
+        images = convert_from_path(pdf_path, first_page=1, last_page=1, poppler_path=r"Release-24.07.0-0\poppler-24.07.0\Library\bin")  # Extract only the first page
         if images:
             image_path = 'Photo_1.png'
             images[0].save(image_path, 'PNG')  # Save the first page as an image
