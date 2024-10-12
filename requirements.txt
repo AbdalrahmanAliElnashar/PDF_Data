@@ -9,4 +9,3 @@ img2table[paddle]
 paddlepaddle==2.6.2 
 paddleocr==2.8.1
 gunicorn==21.2.0
-setuptools
